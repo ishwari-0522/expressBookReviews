@@ -1,0 +1,2 @@
+﻿Command: Invoke-RestMethod -Uri "http://localhost:5000/customer/auth/review/1" -Method Delete -Headers $headers
+Output: {"message":"Review deleted successfully","reviews":{}}

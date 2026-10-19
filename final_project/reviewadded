@@ -1,0 +1,2 @@
+﻿Command: Invoke-RestMethod -Uri "http://localhost:5000/customer/auth/review/1" -Method Put -ContentType "application/json" -Headers $headers -Body $body
+Output: {"message":"Review added or updated successfully","reviews":{"ishwari_chopade":"Excellent book! - Ishwari","ishwari_chopade2":"Excellent book! - Ishwari"}}

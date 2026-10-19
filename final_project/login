@@ -1,0 +1,2 @@
+﻿Command: curl.exe -X POST "http://localhost:5000/customer/login" -H "Content-Type: application/json" --data-binary '{\"username\":\"ishwari_chopade2\",\"password\":\"Ishwari@2026\"}'
+Output: {"message":"Login successful","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImlzaHdhcmlfY2hvcGFkZTIiLCJpYXQiOjE3OTI0MzUyNDJ9.NjLvNXjiSpcW_PVpRrWp6yuuSulLgtRG0cmx_D-7fnU"}
